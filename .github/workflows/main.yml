@@ -46,7 +46,7 @@ jobs:
     - name: Upload plugin artifact
       uses: actions/upload-artifact@v4
       with:
-        name: pimpbunny-plugin
+        name: plugin
         path: plugin.zip
     
     - name: Create Release
